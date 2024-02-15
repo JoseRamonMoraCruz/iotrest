@@ -13,8 +13,8 @@ return new class extends Migration
     {
         Schema::create('actuators', function (Blueprint $table) {
             $table->id();
-            $table->string("name");
-            $table->integer("value");
+            $table->string("name");//nombre del actuador
+            $table->integer("value");//valor del actuador
             $table->timestamps();
         });
     }
