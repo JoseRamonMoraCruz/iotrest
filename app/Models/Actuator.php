@@ -8,7 +8,7 @@ class Actuator extends Model
 {
 
     protected $fillable = [
-        'id', 'name', 'value'
+        'id','name', 'type', 'value', 'date', 'user_id'
     ];
 
     protected $hidden = [
